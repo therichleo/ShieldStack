@@ -1,5 +1,5 @@
-# Wazuh Project
-#### Aqui generare un tutorial paso a paso en donde explicare como generar alertas por email como estas:
+## Step-by-step guide to generating alerts to an email
+#### Here I will generate a step-by-step tutorial where I will explain how to generate email alerts like these:
 
 <div style="display: flex;">
   <img width="459" height="194" alt="Imagen 1" src="https://github.com/user-attachments/assets/5fe60a10-7096-4979-bfbb-f936369ecc80" />
@@ -7,4 +7,3 @@
 </div>
 
 
-Proximamente hare que los textos a enviar puedan modificarse de manera mas limpia 

@@ -7,4 +7,3 @@
 </div>
 
 
-Proximamente hare que los textos a enviar puedan modificarse de manera mas limpia 

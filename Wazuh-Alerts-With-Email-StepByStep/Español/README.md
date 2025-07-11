@@ -7,5 +7,5 @@
 </div>
 
 ###### Cosas a tener en cuenta
-- Necesitaremos una app de contrasenhas, por lo cual para mi recomendacion es hacer que nuestra cuenta de correo electronico tenga 2FA y luego puedes generar la app password desde el menu de seguridad
+- ###### Necesitaremos una app de contrasenhas, por lo cual para mi recomendacion es hacer que nuestra cuenta de correo electronico tenga 2FA y luego puedes generar la app password desde el menu de seguridad
 

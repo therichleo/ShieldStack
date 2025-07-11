@@ -13,5 +13,5 @@
 3. Modificacion Wazuh
 4. Prueba y resultado
 
-1. ### Creacion de SMTP Server (PostFix)
+### Creacion de SMTP Server (PostFix)
 

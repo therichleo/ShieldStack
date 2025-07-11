@@ -1,4 +1,4 @@
-# Wazuh Project
+## Guía paso a paso para generar alertas a un correo electrónico
 #### Aqui generare un tutorial paso a paso en donde explicare como generar alertas por email como estas:
 
 <div style="display: flex;">

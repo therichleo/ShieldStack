@@ -14,4 +14,4 @@
 4. Prueba y resultado
 
 ### Creacion de SMTP Server (PostFix)
-
+Esta creacion y levantacion del servidor SMTP puede hacerse de diferentes maneras pero en mi caso utilizare sistema operativo Ubuntu (Linux)

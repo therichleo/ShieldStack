@@ -34,4 +34,4 @@ smtp_use_tls = yes
 smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, defer_unauth_destination
 ```
 Luego seguimos esta linea de comandos
-- Pero antes de iniciar con los comandos ya debemos contar con un correo electronico el cual usara Wazuh para notificarte y una App password, en mi caso utilice la de google y para generarr la app password es directamente con este link ```https://myaccount.google.com/apppasswords```
+- Pero antes de iniciar con los comandos ya debemos contar con un correo electronico el cual usara Wazuh para notificarte y una App password, en mi caso utilice la de google y para generarr la app password es directamente con este link ```https://myaccount.google.com/apppasswords``` Ya una vez teniendo todo esto en mano podemos avanzar directamente a los comandos:

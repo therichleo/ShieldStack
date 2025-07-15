@@ -19,3 +19,14 @@ Esta creacion y levantacion del servidor SMTP puede hacerse de diferentes manera
 ```
 apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
 ```
+Luego de esto, se debe ir a la ruta: ``` /etc/postfix/main.cf ``` y tenemos que poner lo siguiente:
+```
+relayhost = [smtp.gmail.com]:587
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sasl_security_options = noanonymous
+smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
+smtp_use_tls = yes
+smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, defer_unauth_destination
+```
+Luego seguimos esta linea de comandos

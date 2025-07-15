@@ -15,3 +15,7 @@
 
 ### Creacion de SMTP Server (PostFix)
 Esta creacion y levantacion del servidor SMTP puede hacerse de diferentes maneras pero en mi caso utilizare sistema operativo Ubuntu (Linux)
+- Primero debemos correr el siguiente codigo
+```
+apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
+```

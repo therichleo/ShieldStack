@@ -19,6 +19,10 @@ Esta creacion y levantacion del servidor SMTP puede hacerse de diferentes manera
 ```
 apt-get update && apt-get install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
 ```
+- Lo que hace es actualizar la dependecia de paquetes disponibles
+- Instala PostFix el cual es un servidor de correos
+- Instala MailUtils herramienta para enviar correos
+- Y finalmente librerias necesarias para autenticacion y certificacion
 Luego de esto, se debe ir a la ruta: ``` /etc/postfix/main.cf ``` y tenemos que poner lo siguiente:
 ```
 relayhost = [smtp.gmail.com]:587

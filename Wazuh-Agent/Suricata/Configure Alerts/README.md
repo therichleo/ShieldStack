@@ -23,6 +23,9 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
   <img width="495" height="320" src="https://github.com/user-attachments/assets/fa32cf80-f657-45c4-b4e5-28bb7955c189" alt="Image" />
 </div>
 
+* ##### To enable detection for the ICMP protocol, we need to remove the "#" symbol from the alert rules related to ICMP. This action activates the corresponding rules within the configuration.
+<div align="center">
+  <img width="495" height="320" src="https://github.com/user-attachments/assets/63c74a24-ebfd-41fe-b793-d4aa091497bb" alt="Image" />
+</div>
 
-<img width="901" height="608" alt="capturaparaabrirconnotepadplusplus" src="" />
 

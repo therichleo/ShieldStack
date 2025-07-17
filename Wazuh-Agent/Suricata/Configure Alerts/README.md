@@ -16,6 +16,3 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
   <img width="495" height="320" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" alt="Image" />
 </div>
 
-1. We need to go to this file "C:\Program Files\Suricata\rules\emerging-all.rules"
-  <img width="495" height="319,8" alt="Image" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" />
-</p>

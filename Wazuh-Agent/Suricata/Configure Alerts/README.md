@@ -13,7 +13,7 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
 
 ---
 
-1. We need to go to this file: <code>C:\Program Files\Suricata\rules\emerging-all.rules</code></p>
+1. ##### We need to go to this file: <code>C:\Program Files\Suricata\rules\emerging-all.rules</code></p>
 <div align="center">
   <img width="495" height="320" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" alt="Image" />
 </div>

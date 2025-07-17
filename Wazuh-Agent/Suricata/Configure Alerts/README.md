@@ -13,11 +13,12 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
 
 ---
 
-1. ##### We need to go to this file: <code>C:\Program Files\Suricata\rules\emerging-all.rules</code></p>
+* ##### We need to go to this file: <code>C:\Program Files\Suricata\rules\emerging-all.rules</code></p>
 <div align="center">
   <img width="495" height="320" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" alt="Image" />
 </div>
-After this, we will proceed to edit the configuration using Notepad++.
+
+* ##### After this, we will proceed to edit the configuration using Notepad++.
 <div align="center">
   <img width="495" height="320" src="https://github.com/user-attachments/assets/fa32cf80-f657-45c4-b4e5-28bb7955c189" alt="Image" />
 </div>

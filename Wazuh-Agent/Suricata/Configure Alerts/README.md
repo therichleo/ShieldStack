@@ -28,4 +28,13 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
   <img width="495" height="320" src="https://github.com/user-attachments/assets/63c74a24-ebfd-41fe-b793-d4aa091497bb" alt="Image" />
 </div>
 
+* ##### In the following screenshot, we can observe that ICMP traffic, such as ping requests, is now being captured and recorded in the eve.json file. Additionally, these events are also visible on the Wazuh dashboard.
+<div align="center">
+  <img width="495" height="320" src="https://github.com/user-attachments/assets/e549c9b1-a7f4-4d6f-ae26-70af66cebdd9" alt="Image" />
+  <img width="495" height="320" src="https://github.com/user-attachments/assets/ec418fbe-45d6-4815-888e-baffecc379f1" alt="Image" />
+</div>
+
+
+
+
 

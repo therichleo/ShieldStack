@@ -7,7 +7,8 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
 <p align="center">
   <img width="630" height="325" src="https://github.com/user-attachments/assets/fc659d8e-0e99-4667-9d8a-0d6b6cffcb81" alt="Image" />
 </p>
-As we can see there is no ICMP packets, so this is the issue, Suricata is no configured to capture ICMP traffic
+
+###### As we can see there is no ICMP packets, so this is the issue, Suricata is no configured to capture ICMP traffic
 1. We need to go to this file "C:\Program Files\Suricata\rules\emerging-all.rules"
 <p align="center">
   <img width="495" height="319,8" alt="Image" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" />

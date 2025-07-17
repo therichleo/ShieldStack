@@ -34,7 +34,8 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
   <img width="495" height="320" src="https://github.com/user-attachments/assets/ec418fbe-45d6-4815-888e-baffecc379f1" alt="Image" />
 </div>
 
-* Como podemos ver, el proceso en sí es sencillo; sin embargo, saber exactamente qué modificar puede ser la parte difícil.
+* As we can see, the process itself is straightforward—however, knowing exactly what to modify can be the challenging part.
+
 
 
 

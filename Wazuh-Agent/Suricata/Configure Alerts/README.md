@@ -10,6 +10,7 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
   
   <h6>As we can see there is no ICMP packets, so this is the issue, Suricata is not configured to capture ICMP traffic</h6>
 </div>
+
 ---
 
 1. We need to go to this file: <code>C:\Program Files\Suricata\rules\emerging-all.rules</code></p>

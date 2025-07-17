@@ -5,5 +5,5 @@ This is a brief overview of how to configure Suricata within the Wazuh agent to 
 1. Verifying the initially captured traffic:
 First, I’ll show the traffic that Suricata was capturing while I was performing a ping from one PC to another. As you'll see in the corresponding screenshot, no ICMP packets were being captured, which indicated a misconfiguration.
 <div style="display: flex;">
-  <img width="1260" height="650" alt="Image" src="https://github.com/user-attachments/assets/fc659d8e-0e99-4667-9d8a-0d6b6cffcb81" />
+  <img width="882" height="455" alt="Image" src="https://github.com/user-attachments/assets/fc659d8e-0e99-4667-9d8a-0d6b6cffcb81" />
 </div>

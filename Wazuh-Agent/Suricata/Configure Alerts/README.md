@@ -6,10 +6,12 @@ Verifying the initially captured traffic:
 First, I’ll show the traffic that Suricata was capturing while I was performing a ping from one PC to another. As you'll see in the corresponding screenshot, no ICMP packets were being captured, which indicated a misconfiguration.
 <p align="center">
   <img width="630" height="325" src="https://github.com/user-attachments/assets/fc659d8e-0e99-4667-9d8a-0d6b6cffcb81" alt="Image" />
+  
+  ###### As we can see there is no ICMP packets, so this is the issue, Suricata is no configured to capture ICMP traffic
+
 </p>
 <p align="center">
   
-###### As we can see there is no ICMP packets, so this is the issue, Suricata is no configured to capture ICMP traffic
 </p>
 1. We need to go to this file "C:\Program Files\Suricata\rules\emerging-all.rules"
 <p align="center">

@@ -15,4 +15,11 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
 <div align="center">
   <img width="495" height="320" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" alt="Image" />
 </div>
+After this, we will proceed to edit the configuration using Notepad++.
+<div align="center">
+  <img width="495" height="320" src="https://github.com/user-attachments/assets/fa32cf80-f657-45c4-b4e5-28bb7955c189" alt="Image" />
+</div>
+
+
+<img width="901" height="608" alt="capturaparaabrirconnotepadplusplus" src="" />
 

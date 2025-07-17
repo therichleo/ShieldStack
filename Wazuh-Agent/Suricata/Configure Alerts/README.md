@@ -10,5 +10,5 @@ First, I’ll show the traffic that Suricata was capturing while I was performin
 As we can see there is no ICMP packets, so this is the issue, Suricata is no configured to capture ICMP traffic
 2. We need to go to this route "C:\Program Files\Suricata\rules\emerging-all.rules"
 <p align="center">
-  <img width="825" height="533" alt="Image" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" />
+  <img width="495" height="319,8" alt="Image" src="https://github.com/user-attachments/assets/7943cd62-a5d7-461d-a76e-2799b6fef849" />
 </p>

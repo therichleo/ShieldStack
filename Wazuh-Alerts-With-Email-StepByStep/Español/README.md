@@ -1,19 +1,19 @@
-## Guía paso a paso para generar alertas a un correo electrónico
-#### Aqui generare un tutorial paso a paso en donde explicare como generar alertas por email como estas:
+## Step-by-Step Guide to Sending Alerts via Email
+#### In this tutorial, I’ll walk you through the process of configuring email alerts, like the ones shown below:
 <div style="display: flex;">
   <img width="459" height="194" alt="Imagen 1" src="https://github.com/user-attachments/assets/5fe60a10-7096-4979-bfbb-f936369ecc80" />
   <img width="496" height="267" alt="Imagen 2" src="https://github.com/user-attachments/assets/12117915-4f91-4b74-907e-862ff0fb96f0" />
 </div>
 
-###### Cosas a tener en cuenta:
-- ###### Necesitaremos una app de contrasenhas, por lo cual para mi recomendacion es hacer que nuestra cuenta de correo electronico tenga 2FA y luego puedes generar la app password desde el menu de seguridad
-##### Indice:
-1. Creacion de SMTP Server (PostFix)
-2. Creacion de contrasenha de APP
-3. Modificacion Wazuh
-4. Prueba y resultado
+###### Things to Keep in Mind:
+- ###### You'll need an app password. I highly recommend enabling 2FA (Two-Factor Authentication) on your email account. After that, you can generate an App Password from your account’s security settings.
+##### Table of Contents:
+1. Creating the SMTP Server (Postfix)
+2. Generating the App Password
+3. Modifying Wazuh Configuration
+4. Testing and Results
 
-### Creacion de SMTP Server (PostFix)
+### Creating the SMTP Server (Postfix)
 Esta creacion y levantacion del servidor SMTP puede hacerse de diferentes maneras pero en mi caso utilizare sistema operativo Ubuntu (Linux)
 - Primero debemos correr el siguiente codigo
 ```

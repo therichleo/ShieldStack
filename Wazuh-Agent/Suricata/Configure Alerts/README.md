@@ -1,4 +1,5 @@
 ### Configuring Alerts in Suricata with Wazuh Agent
+---
 I created this repository because I experienced an issue where Suricata wasn't detecting ICMP (ping) traffic. In this guide, I’ll explain how to configure it properly so that this type of traffic is captured and alerts are generated.
 #### Introduction
 This is a brief overview of how to configure Suricata within the Wazuh agent to generate alerts based on specific network traffic. I won’t go into too much detail since I’ll include screenshots to illustrate each step clearly.

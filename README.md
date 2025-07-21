@@ -27,3 +27,14 @@
 ## 🧱 Arquitectura General
 [Endpoints/Servidores] → [Filebeat/Wazuh Agent] → [Wazuh Manager]
 → [Elasticsearch] → [Kibana / Grafana]
+
+
+- Filebeat y los agentes Wazuh recolectan logs y eventos.
+- Elasticsearch indexa y almacena los datos.
+- Kibana y Grafana ofrecen interfaces para visualización y análisis.
+
+---
+
+📊 Dashboards Incluidos
+
+## 

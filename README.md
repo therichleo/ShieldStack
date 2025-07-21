@@ -25,4 +25,5 @@
 ---
 
 ## 🧱 Arquitectura General
-- Proximo Update
+[Endpoints/Servidores] → [Filebeat/Wazuh Agent] → [Wazuh Manager]
+→ [Elasticsearch] → [Kibana / Grafana]

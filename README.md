@@ -1,6 +1,6 @@
 # ShieldStack – Arquitectura de Seguridad Empresarial (Fase Piloto)
 
-**SentryPilot** es un entorno de monitoreo y análisis de seguridad empresarial en fase de prueba, diseñado para ofrecer visibilidad, detección de amenazas y recolección de logs de manera centralizada. Este proyecto integra herramientas de código abierto como **Wazuh**, **Elasticsearch**, **Kibana**, **Filebeat** y **Grafana** para construir una arquitectura SIEM ligera pero escalable.
+**ShieldStack** es un entorno de monitoreo y análisis de seguridad empresarial en fase de prueba, diseñado para ofrecer visibilidad, detección de amenazas y recolección de logs de manera centralizada. Este proyecto integra herramientas de código abierto como **Wazuh**, **Elasticsearch**, **Kibana**, **Filebeat** y **Grafana** para construir una arquitectura SIEM ligera pero escalable.
 
 ---
 

@@ -1,40 +1,55 @@
-# ShieldStack – Arquitectura de Seguridad Empresarial (Fase Piloto)
+# **ShieldStack – Enterprise Security Architecture (Pilot Phase)**
 
-**ShieldStack** es un entorno de monitoreo y análisis de seguridad empresarial en fase de prueba, diseñado para ofrecer visibilidad, detección de amenazas y recolección de logs de manera centralizada. Este proyecto integra herramientas de código abierto como **Wazuh**, **Elasticsearch**, **Kibana**, **Filebeat** y **Grafana** para construir una arquitectura SIEM ligera pero escalable.
-
----
-
-## 📌 Objetivo del Proyecto
-
-- Evaluar la viabilidad técnica y operativa de una solución de monitoreo de seguridad basada en herramientas open-source.
-- Implementar una arquitectura SIEM básica que sea fácilmente escalable en entornos empresariales.
-- Centralizar la recopilación, análisis y visualización de logs de seguridad.
+**ShieldStack** is a pilot-stage enterprise security monitoring and analysis environment designed to provide centralized visibility, threat detection, and log collection. This project integrates open-source tools such as **Wazuh**, **Elasticsearch**, **Kibana**, **Filebeat**, and **Grafana** to build a lightweight yet scalable SIEM architecture.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 📌 **Project Objectives**
 
-| Componente      | Función Principal                                      |
-|-----------------|--------------------------------------------------------|
-| **Wazuh**       | Detección de amenazas, análisis de logs y control de integridad. |
-| **Elasticsearch** | Motor de búsqueda y almacenamiento de eventos.         |
-| **Kibana**      | Visualización y exploración de datos de Elasticsearch. |
-| **Filebeat**    | Envío ligero de logs a Elasticsearch/Wazuh.            |
-| **Grafana**     | Paneles personalizados para métricas y alertas.        |
+* Assess the technical and operational feasibility of an open-source-based security monitoring solution.
+* Deploy a basic SIEM architecture that can be easily scaled in enterprise environments.
+* Centralize the collection, analysis, and visualization of security-related logs.
 
 ---
 
-## 🧱 Arquitectura General
-[Endpoints/Servidores] → [Filebeat/Wazuh Agent] → [Wazuh Manager]
-→ [Elasticsearch] → [Kibana / Grafana]
+## 🛠️ **Technologies Used**
 
-
-- Filebeat y los agentes Wazuh recolectan logs y eventos.
-- Elasticsearch indexa y almacena los datos.
-- Kibana y Grafana ofrecen interfaces para visualización y análisis.
+| Component         | Main Functionality                                                     |
+| ----------------- | ---------------------------------------------------------------------- |
+| **Wazuh**         | Threat detection, log analysis, file integrity monitoring.             |
+| **Elasticsearch** | Event indexing, search engine, and storage backend.                    |
+| **Kibana**        | Visualization and exploration of data stored in Elasticsearch.         |
+| **Filebeat**      | Lightweight log shipper for forwarding logs to Wazuh or Elasticsearch. |
+| **Grafana**       | Custom dashboards for metrics, performance monitoring, and alerting.   |
 
 ---
 
-📊 Dashboards Incluidos
+## 🧱 **General Architecture Overview**
 
-## 
+```
+[Endpoints / Servers] → [Filebeat / Wazuh Agent] → [Wazuh Manager]
+                              ↓
+                       [Elasticsearch]
+                              ↓
+                   [Kibana]      [Grafana]
+```
+
+* **Wazuh agents** and **Filebeat** collect system logs, events, and security data.
+* **Wazuh Manager** processes events and forwards them to Elasticsearch.
+* **Elasticsearch** indexes and stores all the incoming logs for efficient querying.
+* **Kibana** provides powerful dashboards for real-time data exploration.
+* **Grafana** is used for high-level visualizations, custom metrics panels, and alert configurations.
+
+---
+
+## 📊 **Included Dashboards**
+
+The pilot phase includes a set of dashboards and panels to visualize:
+
+* Security events and alerts by severity, source IP, and affected hosts.
+* System health metrics and performance of monitored endpoints.
+* File integrity monitoring (FIM) changes.
+* Authentication and user behavior patterns.
+* Network activity and potentially malicious traffic.
+
+> These dashboards are built using both **Kibana** (for security-focused visualizations) and **Grafana** (for operational metrics and alerting).

@@ -10,3 +10,19 @@ So once we have docker-compose installed, we have start with this command
 this command do: ...
 
 then we have
+enter to single-node/generate-indexer-certs.yml
+and you need to edit and sent like this
+```
+# Wazuh App Copyright (C) 2017 Wazuh Inc. (License GPLv2)
+version: '3'
+
+services:
+  generator:
+    image: wazuh/wazuh-certs-generator:0.0.2
+    hostname: wazuh-certs-generator
+    volumes:
+      - ./config/wazuh_indexer_ssl_certs/:/certificates/
+      - ./config/certs.yml:/config/certs.yml
+    environment:
+      - HTTP_PROXY=YOUR_PROXY_ADDRESS_OR_DNS
+```

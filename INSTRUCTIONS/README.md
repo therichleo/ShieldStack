@@ -7,3 +7,6 @@ Firstly we are gonna start wazuh with dockers, if you dont have docker, dont tak
 So once we have docker-compose installed, we have start with this command 
 
 ``` git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0 ```
+this command do: ...
+
+then we have

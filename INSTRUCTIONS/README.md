@@ -52,6 +52,7 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 ```
 4. Join Grafana with Wazuh Logs (Indexer)
+
 In firstly we have to verify if we have opensearch or elasticsearch
 ``` docker exec -it single-node-wazuh.indexer-1 curl -k -u admin:SecretPassword https://localhost:9200 ```
 the output is like this:

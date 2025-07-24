@@ -23,6 +23,8 @@ services:
     environment:
       - HTTP_PROXY=YOUR_PROXY_ADDRESS_OR_DNS
 ```
+in single-node put this command:
+``` docker-compose -f generate-indexer-certs.yml run --rm generator ```
 
 3. Install Grafana
 4. Join Grafana with Wazuh Logs (Indexer)

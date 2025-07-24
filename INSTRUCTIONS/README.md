@@ -3,6 +3,11 @@ This intructions makes the conections from Wazuh to Grafana, so in midst of this
 1. Install Docker-compose
 
 put this commando for ... ``` sysctl -w vm.max_map_count=262144 ```
+then this command ``` curl -sSL https://get.docker.com/ | sh ```
+then ``` systemctl start docker ```
+and for installation of docker-compose
+``` curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose ```
+``` chmod +x /usr/local/bin/docker-compose ```
 
 2. Install Wazuh (manager-dashboard-indexer) (SINGLE-NODE)
 

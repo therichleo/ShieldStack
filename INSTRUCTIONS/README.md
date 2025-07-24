@@ -1,10 +1,7 @@
 This intructions makes the conections from Wazuh to Grafana, so in midst of this is ElasticSearch/OpenSearch, FileBeat and Kibana
 
-You can start like you want, but in my case I start with Wazuh.
-
-Firstly we are gonna start wazuh with dockers, if you dont have docker, dont take the risk and search in this repository docker installation
-
-So once we have docker-compose installed, we have start with this command 
+1. Install Docker-compose
+2. Install Wazuh (manager-dashboard-indexer)
 
 ``` git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0 ```
 this command do: ...
@@ -26,3 +23,7 @@ services:
     environment:
       - HTTP_PROXY=YOUR_PROXY_ADDRESS_OR_DNS
 ```
+
+3. Install Grafana
+4. Join Grafana with Wazuh Logs (Indexer)
+

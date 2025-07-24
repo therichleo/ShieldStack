@@ -1,6 +1,9 @@
 This intructions makes the conections from Wazuh to Grafana, so in midst of this is ElasticSearch/OpenSearch, FileBeat and Kibana
 
 1. Install Docker-compose
+
+put this commando for ... ``` sysctl -w vm.max_map_count=262144 ```
+
 2. Install Wazuh (manager-dashboard-indexer) (SINGLE-NODE)
 
 ``` git clone https://github.com/wazuh/wazuh-docker.git -b v4.12.0 ```

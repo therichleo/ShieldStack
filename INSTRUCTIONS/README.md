@@ -42,5 +42,25 @@ in single-node put this command:
 and start wazuh in background ``` docker-compose up -d ```
 
 3. Install Grafana
+```
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install grafana
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+```
 4. Join Grafana with Wazuh Logs (Indexer)
+In firstly we have to verify if we have opensearch or elasticsearch
+``` docker exec -it single-node-wazuh.indexer-1 curl -k -u admin:SecretPassword https://localhost:9200 ```
+the output is like this:
+
+So in my case I have OpenSearch, so if you have OpenSearch too, we have to install OpenSearch plugin with this command
+``` grafana-cli plugins install grafana-opensearch-datasource ```
+
+and restart ``` sudo systemctl restart grafana-server ```
+
+
+
 

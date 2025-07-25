@@ -67,6 +67,6 @@ In the case of you use ElasticSearch, you dont have to do anything, only the nex
 5. Connect Data Source in grafana
 
 
-
+FINISH THIS INTRUCCTIONS, SO I AM GONNA DO ANOTHERS INSTRUCCTIONS BUT FOR MY PLANS, YOU CAN KNOW WHAT I AM DOING..
 
 

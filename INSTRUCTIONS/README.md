@@ -57,6 +57,8 @@ In firstly we have to verify if we have opensearch or elasticsearch
 ``` docker exec -it single-node-wazuh.indexer-1 curl -k -u admin:SecretPassword https://localhost:9200 ```
 the output is like this:
 
+<img width="1810" height="476" alt="Image" src="https://github.com/user-attachments/assets/52bef2d7-7ef1-4393-8bde-b50d386f243b" />
+
 So in my case I have OpenSearch, so if you have OpenSearch too, we have to install OpenSearch plugin with this command
 ``` grafana-cli plugins install grafana-opensearch-datasource ```
 

@@ -4,6 +4,6 @@ We saw "(137) Exited"
 
 So this error is common, but his fix is not easy to know
 
-- in the first we go to the terminal and put ```find -name "jvm.options"
+- in the first we go to the terminal and put ```find -name "jvm.options ```
 <img width="1540" height="136" alt="Image" src="https://github.com/user-attachments/assets/782ce2d3-ba7d-418d-9865-656aba409f37" />
 - 

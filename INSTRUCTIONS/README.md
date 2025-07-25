@@ -69,6 +69,9 @@ In the case of you use ElasticSearch, you dont have to do anything, only the nex
 5. Connect Data Source in grafana
 
 
+<img width="1174" height="591" alt="Image" src="https://github.com/user-attachments/assets/78993653-65ef-4dd4-8102-a08841913961" />
+
+
 FINISH THIS INTRUCCTIONS, SO I AM GONNA DO ANOTHERS INSTRUCCTIONS BUT FOR MY PLANS, YOU CAN KNOW WHAT I AM DOING..
 
 

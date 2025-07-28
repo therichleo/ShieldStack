@@ -68,6 +68,8 @@ In the case of you use ElasticSearch, you dont have to do anything, only the nex
 
 5. Connect Data Source in grafana
 
+This is one of the most important parts because if you dont do this, you cant create dashboards, and this part is regular to errors, so if you have errors, you can go to the file grafana and errors, in these files I post the regulars errors with their solution
+
 
 <img width="1174" height="591" alt="Image" src="https://github.com/user-attachments/assets/78993653-65ef-4dd4-8102-a08841913961" />
 

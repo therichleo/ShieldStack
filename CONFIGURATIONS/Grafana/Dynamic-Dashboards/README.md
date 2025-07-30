@@ -12,3 +12,11 @@ then if we created a basic dashboard, we saw different results
 <img width="1493" height="679" alt="Image" src="https://github.com/user-attachments/assets/1a3226a1-e62b-4af8-9a1e-75ecf95a6874" />
 
 <img width="1493" height="679" alt="Image" src="https://github.com/user-attachments/assets/9e496e3d-c566-4867-94c6-3790537726d3" />
+
+and in my case i vinculate a canvas dashboards to icons that redirect to this dynamic-dashboard, in the link you have to write the variable, if you dont know how to redirect dashboards from an icon, you can see the respository
+
+<img width="1499" height="484" alt="Image" src="https://github.com/user-attachments/assets/90a3fbd9-403b-4e4e-9a26-eeea4a81be85" />
+
+<img width="1159" height="445" alt="Image" src="https://github.com/user-attachments/assets/a6b11ff1-e07f-4079-bde6-28e3f6e39d03" />
+
+and like this you can have a functional dynamic dashboards

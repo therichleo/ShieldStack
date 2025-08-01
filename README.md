@@ -1,7 +1,8 @@
-## **ShieldStack – Enterprise Security Architecture (Pilot Phase)**
+## **ShieldStack – Enterprise Security Monitoring Architecture**
 
-**ShieldStack** is a pilot-stage enterprise security monitoring and analysis environment designed to provide centralized visibility, threat detection, and log collection. This project integrates open-source tools such as **Wazuh**, **Elasticsearch**, **Kibana**, **Filebeat**, and **Grafana** to build a lightweight yet scalable SIEM architecture.
+**ShieldStack** is an enterprise-grade security monitoring solution developed during my professional internship at the **Municipality of Pedro Aguirre Cerda**. The system is designed to centralize log collection, threat detection, and real-time infrastructure visibility using open-source tools.
 
+This project is currently deployed and being actively scaled. During the **fifth week**, the goal is to onboard **100 endpoints**, with a projected expansion to over **500 devices** across the municipality's network infrastructure.
 ---
 
 ### 📌 **Project Objectives**

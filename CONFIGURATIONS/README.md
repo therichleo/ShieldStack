@@ -30,12 +30,13 @@ CONFIGURATIONS/
 │ ├── Wazuh-Agent/
 │ │ ├── Alerts/WindowsCheck4Updates/ → Alert tuning for unnecessary Windows update logs.
 │ │ ├── AutomaticAgents/ → Auto-registration and enrollment setup for agents.
-│ │ ├── FIM/ → File Integrity Monitoring best practices.
+│ │ ├── FIM integration/ → File Integrity Monitoring best practices.
 │ │ ├── Suricata/
 │ │ │ └── Configure alerts/ → How to send Suricata alerts into Wazuh correctly.
-│ │ ├── VIRUSTOTAL/ → Integrate VirusTotal lookup with Wazuh alerts.
-│ ├── Wazuh-Alerts-With Email Stepbystep/ → Configure alert emails via SMTP with examples.
-│ ├── Wazuh-deploy/Docker/Single-node/ → Clean single-node Docker setup from scratch.
-│ ├── Wazuh-indexer/Configure Logs/ → Log rotation, retention, and disk management.
+│ │ ├── VIRUSTOTAL integration/ → Integrate VirusTotal lookup with Wazuh alerts.
+│ ├── Wazuh-Alerts-With-Email-StepByStep/ → Configure alert emails via SMTP with examples.
+│ ├── Wazuh-Deploy/Docker/Single-node/ → Clean single-node Docker setup from scratch.
+│ ├── Wazuh-Indexer/Configure-Logs/ → Log rotation, retention, and disk management.
 
 ```
+

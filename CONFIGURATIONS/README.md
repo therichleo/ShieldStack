@@ -40,3 +40,25 @@ CONFIGURATIONS/
 
 ```
 
+---
+
+## 🔍 What You’ll Find Here
+
+- ✅ **Real fixes to real problems**: All examples are derived from actual obstacles encountered during deployment.
+- 🖼️ **Annotated screenshots**: Visuals and step-by-step guides to complement official docs.
+- ⚠️ **Error analysis**: Explanations for common Docker, Grafana, OpenSearch, and Wazuh errors.
+- 🧩 **Integration tips**: Especially around **Wazuh ↔ Suricata**, **Wazuh ↔ OpenSearch**, and **Grafana dashboards**.
+- 💬 **Comments and undocumented behaviors**: Includes notes where official documentation was unclear, outdated, or missing.
+- 📦 **Modular setup and testing**: Advice on isolated component testing using Docker.
+
+---
+
+## 🚀 Contribution and Usage
+
+Feel free to explore, adapt, or expand on these configurations for your own infrastructure. If you encounter a similar problem or found a better solution, you’re welcome to fork and contribute.
+
+This section will continue to grow as the system scales and new challenges arise.
+
+---
+
+> 🧠 _“Most documentation tells you what should work. This folder shows what actually worked.”_

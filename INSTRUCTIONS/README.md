@@ -186,6 +186,13 @@ Example UI:
 
 ![Grafana Data Source config](https://github.com/user-attachments/assets/78993653-65ef-4dd4-8102-a08841913961)
 
+> ⚠️ **Having connection issues?**
+> If you run into errors at this stage, don't worry — inside the repository at:
+>
+> `ShieldStack/CONFIGURATIONS/Grafana/Errors/DataSource/`
+>
+> You’ll find **common connection problems** along with their **solutions**
+
 ---
 
 ## ✅ Done!

@@ -27,22 +27,10 @@ This project is currently deployed and being actively scaled. During the **fifth
 
 ---
 
-### 🧱 **General Architecture Overview**
-
-```
-[Endpoints / Servers] → [Filebeat / Wazuh Agent] → [Wazuh Manager]
-                              ↓
-                       [Elasticsearch]
-                              ↓
-                   [Kibana]      [Grafana]
-```
-
-* **Wazuh agents** and **Filebeat** collect system logs, events, and security data.
-* **Wazuh Manager** processes events and forwards them to Elasticsearch.
-* **Elasticsearch** indexes and stores all the incoming logs for efficient querying.
-* **Kibana** provides powerful dashboards for real-time data exploration.
-* **Grafana** is used for high-level visualizations, custom metrics panels, and alert configurations.
-
+* **Wazuh** is deployed via **Docker (single-node)** for ease of management and modularity.
+* **Wazuh Manager** handles processing of all security logs and forwards them to **OpenSearch**.
+* **Grafana** connects to OpenSearch to build dashboards and enable real-time monitoring.
+* A **custom Canvas Focus on GeoMap panel** was integrated into Grafana using the municipal building layout to visualize endpoint status.
 ---
 
 ### 📊 **Included Dashboards**

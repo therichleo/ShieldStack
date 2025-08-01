@@ -18,19 +18,22 @@ This project is currently deployed and being actively scaled. During the **fifth
 ### 🏗️ **System Architecture Overview**
 
 ```
-[Municipal Computers] → [Wazuh Agent / Filebeat] → [Wazuh Manager (Docker Single Node)]
-                                    ↓
-                                [OpenSearch]
-                                    ↓
-                         [Grafana + Custom GeoMap]
+[Municipal Computers]
+    → [Wazuh Agent / Filebeat] 
+    → [Suricata Sensor (Network TAP or Mirror Port)] 
+        → [Wazuh Manager (Docker Single Node)]
+                             ↓
+                         [OpenSearch]
+                             ↓
+                  [Grafana + Custom GeoMap]
 ```
 
 ---
 
-* **Wazuh** is deployed via **Docker (single-node)** for ease of management and modularity.
-* **Wazuh Manager** handles processing of all security logs and forwards them to **OpenSearch**.
-* **Grafana** connects to OpenSearch to build dashboards and enable real-time monitoring.
-* A **custom Canvas Focus on GeoMap panel** was integrated into Grafana using the municipal building layout to visualize endpoint status.
+* **Wazuh** is deployed via **Docker (single-node)** for modular deployment and centralized event processing.
+* **Suricata**, an open-source intrusion detection and network monitoring tool, analyzes network traffic and generates alerts.
+* **Wazuh Manager** collects log and alert data from agents and Suricata, forwarding everything to **OpenSearch**.
+* **Grafana** retrieves data from OpenSearch and displays it in real-time dashboards, including a **custom Canvas focus on GeoMap** panel with the layout of the municipality.
 
 ---
 
@@ -38,16 +41,16 @@ proximamente pongo una foto xd
 
 ---
 
-
 ### 🛠️ **Technologies Used**
 
-| Tool           | Role & Functionality                                      |
-| -------------- | --------------------------------------------------------- |
-| **Wazuh**      | Threat detection, log analysis, integrity monitoring.     |
-| **OpenSearch** | Log indexing, storage, and full-text search capabilities. |
-| **Filebeat**   | Lightweight log shipper to Wazuh                          |
-| **Grafana**    | Dashboards, visualizations, GeoMap panels, and alerting.  |
-| **Docker**     | Containerized deployment of the entire Wazuh stack.       |
+| Tool           | Role & Functionality                                            |
+| -------------- | ----------------------------------------------------------------|
+| **Wazuh**      | Threat detection, log analysis, integrity monitoring.           |
+| **OpenSearch** | Log indexing, storage, and full-text search capabilities.       |
+| **Filebeat**   | Lightweight log shipper to Wazuh                                |
+| **Suricata**   | Intrusion detection, traffic inspection, and protocol analysis. |
+| **Grafana**    | Dashboards, visualizations, GeoMap panels, and alerting.        |
+| **Docker**     | Containerized deployment of the entire Wazuh stack.             |
 
 ---
 
@@ -59,8 +62,14 @@ The following panels and dashboards are available for security and operational v
 * Endpoint health and system metrics.
 * File integrity monitoring (FIM) events.
 * Authentication logs and user access patterns.
-* Network traffic and suspicious activity.
+* Network traffic analysis powered by **Suricata**, including:
+
+  * Suspicious connections
+  * Intrusion attempts
+  * Traffic by protocol or source/destination
+  
 * **Custom Canvas focus on GeoMap Dashboard** displaying endpoint status on the municipal layout:
+  
   * 🟢 **Online**
   * 🔴 **Offline**
   * 🟡 **Critical alerts**
@@ -108,9 +117,9 @@ ShieldStack/
 
 This system was designed and implemented as part of my **6-week professional internship** at the **Municipality of Pedro Aguirre Cerda**. I was responsible for:
 
-* Deploying Wazuh with Docker.
-* Integrating OpenSearch with Grafana.
-* Designing custom dashboards, including geospatial asset tracking.
+* Deploying **Wazuh** and **Suricata** with Docker.
+* Integrating **OpenSearch** with **Grafana**.
+* Designing custom dashboards, including geospatial asset tracking and Suricata alert panels.
 * Documenting and troubleshooting configurations for future scalability.
 * Establishing the foundation of a real, scalable SIEM solution for public institutions.
 

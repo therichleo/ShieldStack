@@ -6,23 +6,24 @@ This project is currently deployed and being actively scaled. During the **fifth
 
 ---
 
-### 📌 **Project Objectives**
+### 📌 **Project Goals**
 
-* Assess the technical and operational feasibility of an open-source-based security monitoring solution.
-* Deploy a basic SIEM architecture that can be easily scaled in enterprise environments.
-* Centralize the collection, analysis, and visualization of security-related logs.
+* Implement a scalable and centralized security monitoring system for municipal infrastructure.
+* Leverage open-source tools to reduce licensing costs while maintaining enterprise-level visibility and detection.
+* Provide intuitive dashboards for security, system health, and activity monitoring.
+* Enable geospatial visualization of all monitored assets using a custom municipal layout.
 
 ---
 
-### 🛠️ **Technologies Used**
+### 🏗️ **System Architecture Overview**
 
-| Component         | Main Functionality                                                     |
-| ----------------- | ---------------------------------------------------------------------- |
-| **Wazuh**         | Threat detection, log analysis, file integrity monitoring.             |
-| **Elasticsearch** | Event indexing, search engine, and storage backend.                    |
-| **Kibana**        | Visualization and exploration of data stored in Elasticsearch.         |
-| **Filebeat**      | Lightweight log shipper for forwarding logs to Wazuh or Elasticsearch. |
-| **Grafana**       | Custom dashboards for metrics, performance monitoring, and alerting.   |
+```
+[Municipal Computers] → [Wazuh Agent / Filebeat] → [Wazuh Manager (Docker Single Node)]
+                                    ↓
+                                [OpenSearch]
+                                    ↓
+                         [Grafana + Custom GeoMap]
+```
 
 ---
 

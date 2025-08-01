@@ -63,7 +63,7 @@ The following panels and dashboards are available for security and operational v
 * File integrity monitoring (FIM) events.
 * Authentication logs and user access patterns.
 * Network traffic analysis powered by **Suricata**, including:
-
+  
   * Suspicious connections
   * Intrusion attempts
   * Traffic by protocol or source/destination

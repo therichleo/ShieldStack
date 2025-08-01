@@ -82,11 +82,75 @@ This config sets up the container to generate SSL certificates required by OpenS
 
 ---
 
+### 🔐 Generate Indexer Certificates
 
+```bash
+docker-compose -f generate-indexer-certs.yml run --rm generator
+```
 
+Runs the certificate generator container and removes it after execution.
 
+---
 
+### 🚀 Start Wazuh Stack
 
+```bash
+docker-compose up -d
+```
+
+Starts all Wazuh containers (manager, dashboard, indexer, etc.) in detached mode.
+
+---
+
+## 📊 3. Install Grafana
+
+```bash
+sudo apt-get install -y software-properties-common
+```
+
+Enables repository management features.
+
+```bash
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+```
+
+Adds Grafana's official package repo.
+
+```bash
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+```
+
+Imports Grafana’s GPG key to verify package authenticity.
+
+```bash
+sudo apt-get update
+sudo apt-get install grafana
+```
+
+Installs Grafana.
+
+```bash
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+```
+
+Starts Grafana and enables it to start on boot.
+
+---
+
+## 🔍 4. Verify Wazuh Indexer Type
+
+### 🧪 Check Indexer (OpenSearch or Elasticsearch)
+
+```bash
+docker exec -it single-node-wazuh.indexer-1 curl -k -u admin:SecretPassword https://localhost:9200
+```
+
+Runs a curl command inside the Wazuh Indexer container to identify the backend. You'll get output like this:
+
+![OpenSearch curl output](https://github.com/user-attachments/assets/52bef2d7-7ef1-4393-8bde-b50d386f243b)
+
+---
 
 
 

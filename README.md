@@ -31,16 +31,89 @@ This project is currently deployed and being actively scaled. During the **fifth
 * **Wazuh Manager** handles processing of all security logs and forwards them to **OpenSearch**.
 * **Grafana** connects to OpenSearch to build dashboards and enable real-time monitoring.
 * A **custom Canvas Focus on GeoMap panel** was integrated into Grafana using the municipal building layout to visualize endpoint status.
+
 ---
 
-### 📊 **Included Dashboards**
+proximamente pongo una foto xd
 
-The pilot phase includes a set of dashboards and panels to visualize:
+---
 
-* Security events and alerts by severity, source IP, and affected hosts.
-* System health metrics and performance of monitored endpoints.
-* File integrity monitoring (FIM) changes.
-* Authentication and user behavior patterns.
-* Network activity and potentially malicious traffic.
 
-> These dashboards are built using both **Kibana** (for security-focused visualizations) and **Grafana** (for operational metrics and alerting).
+### 🛠️ **Technologies Used**
+
+| Tool           | Role & Functionality                                      |
+| -------------- | --------------------------------------------------------- |
+| **Wazuh**      | Threat detection, log analysis, integrity monitoring.     |
+| **OpenSearch** | Log indexing, storage, and full-text search capabilities. |
+| **Filebeat**   | Lightweight log shipper to Wazuh                          |
+| **Grafana**    | Dashboards, visualizations, GeoMap panels, and alerting.  |
+| **Docker**     | Containerized deployment of the entire Wazuh stack.       |
+
+---
+
+### 📊 **Dashboards & Visualization**
+
+The following panels and dashboards are available for security and operational visibility:
+
+* Security alerts by severity, source, and affected hosts.
+* Endpoint health and system metrics.
+* File integrity monitoring (FIM) events.
+* Authentication logs and user access patterns.
+* Network traffic and suspicious activity.
+* **Custom Canvas focus on GeoMap Dashboard** displaying endpoint status on the municipal layout:
+  * 🟢 **Online**
+  * 🔴 **Offline**
+  * 🟡 **Critical alerts**
+
+ foto aqi tmb
+
+---
+
+### 📁 **Repository Structure**
+
+```
+ShieldStack/
+│
+├── Tracking/
+│   └── Weeks/
+│       ├── Week 1/
+│       ├── Week 2/
+│       ├── Week 3/
+│       ├── Week 4/
+│       ├── Week 5/
+│       └── Week 6/
+│       → Contains weekly logs, documentation, progress notes, and screenshots.
+│
+├── Configuration/
+│   → Step-by-step guides to configure or troubleshoot components.
+│   → Includes personal notes where official docs were unclear, with screenshots.
+│
+├── Instructions/
+│   → How to deploy Wazuh and Grafana together.
+│   → Minimal setup instructions without deep configuration.
+```
+
+---
+
+### 🚀 **Project Impact & Scaling**
+
+* Currently operational within the municipality’s infrastructure.
+* Week 5: onboarding **100 monitored endpoints**.
+* Next phase: scale to **500+ devices** for full coverage.
+* Centralized platform to reduce manual effort, improve incident detection time, and visualize network health instantly.
+
+---
+
+### 👨‍💻 **About This Project**
+
+This system was designed and implemented as part of my **6-week professional internship** at the **Municipality of Pedro Aguirre Cerda**. I was responsible for:
+
+* Deploying Wazuh with Docker.
+* Integrating OpenSearch with Grafana.
+* Designing custom dashboards, including geospatial asset tracking.
+* Documenting and troubleshooting configurations for future scalability.
+* Establishing the foundation of a real, scalable SIEM solution for public institutions.
+
+
+
+

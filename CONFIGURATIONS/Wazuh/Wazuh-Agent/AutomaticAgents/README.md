@@ -10,4 +10,6 @@ then thta give you a key, we save that key.
 
 If we need 10 new agents, we need to do this 10 times.
 
-In the pc of the agents
+In the pc of the agents we have to install the wazuh agent, but the installer, not with command, so when we insatall the application, that is gona ask for a key, so we put the key, and this is like the aumatic agents work
+
+//arreglar

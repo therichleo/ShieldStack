@@ -19,7 +19,7 @@ First, go to the **dashboard settings** of the one you want to make dynamic — 
 Now create a panel and use the variable in the query. As shown below, the `agent_id` selected is `001`, thanks to the variable setup.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f4c9cd4c-12da-401c-86d9-a9d4785644a4" />
+  <img src="https://github.com/user-attachments/assets/f4c9cd4c-12da-401c-86d9-a9d4785644a4" width="70%"/>
 </div>
 
 ---

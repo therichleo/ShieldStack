@@ -2,7 +2,11 @@
 
 ## 1. Set Up a Variable
 
+First, go to the **dashboard settings** of the one you want to make dynamic — this will be the dashboard where data updates based on the selected variable.
 
+* Navigate to **Settings → Variables**.
+* Click on **Add variable**.
+* Fill in the details. In this example, we have 3 Wazuh agents.
 
 In first we have to go to settings of the dashboard that gonna be dynamic (that one have all data changing) and go to variables, add new variable, and put information, in my case, i have 3 wazuh agents and put all the information like this:
 

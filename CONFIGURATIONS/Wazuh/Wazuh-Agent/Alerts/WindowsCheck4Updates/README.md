@@ -15,4 +15,14 @@ $UpdateSearcher = $UpdateSession.CreateUpdateSearcher()
 
 $SearchResult = $UpdateSearcher.Search("IsInstalled=0")
 
-now we have the command that verify existing windows updates
+now we have the command that verify existing windows updates.
+
+So we have to search the ossec.conf and put this in log files
+
+
+<localfile>
+  <log_format>eventchannel</log_format>
+  <location>Microsoft-Windows-WindowsUpdateClient/Operational</location>
+</localfile>
+
+

@@ -23,3 +23,21 @@ Now create a panel and use the variable in the query. As shown below, the `agent
 </div>
 
 ---
+
+## 3. Resulting Dashboard View
+
+If we preview the dashboard using the variable, we’ll see different results for each agent:
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b5b9a4f8-00e3-4094-802b-ee040bbc21a2" width="50%" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a3226a1-e62b-4af8-9a1e-75ecf95a6874" width="50%" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9e496e3d-c566-4867-94c6-3790537726d3" width="50%" />
+</div>
+
+---

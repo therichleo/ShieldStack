@@ -6,3 +6,8 @@ and is gona appears a display that is like that:
 so we put A
 the name is just a random name or a name that we like
 and for the IP if you dont have static IPs just put "any"
+then thta give you a key, we save that key.
+
+If we need 10 new agents, we need to do this 10 times.
+
+In the pc of the agents

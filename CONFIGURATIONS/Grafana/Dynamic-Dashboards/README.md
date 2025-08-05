@@ -49,11 +49,11 @@ In my case, I linked **Canvas dashboard icons** directly to this dynamic dashboa
 To do this, just **add the variable in the dashboard URL**. If you're not sure how to link dashboards through Canvas icons, check the repository for examples.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/90a3fbd9-403b-4e4e-9a26-eeea4a81be85" width="50%" />
+  <img src="https://github.com/user-attachments/assets/90a3fbd9-403b-4e4e-9a26-eeea4a81be85" width="80%" />
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a6b11ff1-e07f-4079-bde6-28e3f6e39d03" width="50%" />
+  <img src="https://github.com/user-attachments/assets/a6b11ff1-e07f-4079-bde6-28e3f6e39d03" width="80%" />
 </div>
 
 ---

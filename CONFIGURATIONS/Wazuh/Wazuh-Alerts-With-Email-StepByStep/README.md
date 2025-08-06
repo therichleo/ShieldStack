@@ -35,3 +35,44 @@ smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, defer_u
 ```
 Luego seguimos esta linea de comandos
 - Pero antes de iniciar con los comandos ya debemos contar con un correo electronico el cual usara Wazuh para notificarte y una App password, en mi caso utilice la de google y para generarr la app password es directamente con este link ```https://myaccount.google.com/apppasswords``` Ya una vez teniendo todo esto en mano podemos avanzar directamente a los comandos:
+
+```
+echo [smtp.gmail.com]:587 USERNAME@gmail.com:PASSWORD > /etc/postfix/sasl_passwd
+postmap /etc/postfix/sasl_passwd
+chmod 400 /etc/postfix/sasl_passwd
+```
+se debe cambiar USERNAME a nuestro correo electronico y el PASSWORD es la contraseña de la app
+<img width="687" height="577" alt="Image" src="https://github.com/user-attachments/assets/9607af00-d895-46ad-9309-e5adb3631180" />
+la contraseña seria "jljm wnls udou bglk"
+despues de eso reiniciamos el servicio systemctl restart postfix
+
+ahora se debe configurar el wazuh_manager para que se habilite las alertas y no solo eso, desde que nivel de alerta este dara aviso.
+1. vamos al ossec.conf, si no sabes donde esta es muy facil directamente buscarlo con find -name "ossec.conf"
+y alli configuramos esto
+
+```
+<global>
+    <jsonout_output>yes</jsonout_output>
+    <alerts_log>yes</alerts_log>
+    <logall>no</logall>
+    <logall_json>no</logall_json>
+    <email_notification>yes</email_notification>
+    <smtp_server>localhost</smtp_server>
+    <email_from>sender@gmail.com</email_from>
+    <email_to>receiver@gmail.com</email_to>
+    <email_maxperhour>12</email_maxperhour>
+    <email_log_source>alerts.log</email_log_source>
+    <agents_disconnection_time>10m</agents_disconnection_time>
+    <agents_disconnection_alert_time>0</agents_disconnection_alert_time>
+  </global>
+
+  <alerts>
+    <log_alert_level>3</log_alert_level>
+    <email_alert_level>7</email_alert_level>
+  </alerts>
+<global>
+```
+sender@gmail.com lo modificamos por nuestro correo electronico que pusimos anteriormente\\
+receiver@gmail.com lo modificamos al gmail donde queramos recibir los correos, puede ser el mismo gmail\\
+<email_alert_level>7</email_alert_level> aqui ponemos el nivel desde el cual queramos ver alertas al correo.
+y luego reiniciamos wazuh manager systemctl restart wazuh-manager

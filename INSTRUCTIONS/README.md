@@ -1,7 +1,5 @@
 # Installation of the shieldStack Implementation
 
----
-
 ### The steps is like this
 1. Install docker
 2. Install Wazuh
@@ -12,3 +10,4 @@
 7. Install VIRUSTOTAL in agent
 8. Install SYSMON in agent
    
+

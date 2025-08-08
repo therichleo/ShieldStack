@@ -9,5 +9,3 @@
 6. Install FIM in agent
 7. Install VIRUSTOTAL in agent
 8. Install SYSMON in agent
-   
-

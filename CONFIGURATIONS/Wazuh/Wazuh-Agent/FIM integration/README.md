@@ -12,5 +12,7 @@ and in Defaul files to be monitored we put
 
 <img width="1332" height="776" alt="Image" src="https://github.com/user-attachments/assets/9a7732f5-191a-44b4-a6e7-1094417207f0" />
 
+and you have to restart wazuh agent.
+
 and with this, all files that we download, is being monitored, the FIM integration always is good to comppany with VIRUSTOTAL, cause that verified the file automatied
 

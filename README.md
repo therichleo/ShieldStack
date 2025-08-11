@@ -37,7 +37,7 @@ This project is currently deployed and being actively scaled. During the **fifth
 
 ---
 
-<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/fe6ae29a-2243-4a96-aada-523a57630914" />
+<img width="576" height="324" alt="Image" src="https://github.com/user-attachments/assets/fe6ae29a-2243-4a96-aada-523a57630914" />
 ---
 
 ### 🛠️ **Technologies Used**

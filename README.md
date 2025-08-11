@@ -74,8 +74,6 @@ The following panels and dashboards are available for security and operational v
   * 🔴 **Offline**
   * 🟡 **Critical alerts**
 
- foto aqi tmb
-
 ---
 
 ### 📁 **Repository Structure**

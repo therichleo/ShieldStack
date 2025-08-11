@@ -26,3 +26,7 @@ So we have to search the ossec.conf and put this in log files
 </localfile>
 
 
+then restart the wazuh agent and restart the wazuh manager
+
+and is ready
+

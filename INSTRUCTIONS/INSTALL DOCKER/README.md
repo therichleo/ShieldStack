@@ -1,4 +1,4 @@
-## 🔧 1. Install Docker & Docker Compose
+## 🔧 Install Docker & Docker Compose
 
 ### 📌 Set virtual memory map count
 
@@ -41,3 +41,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 Grants execution permissions to Docker Compose.
 
 ---
+

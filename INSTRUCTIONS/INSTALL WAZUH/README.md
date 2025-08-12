@@ -1,4 +1,4 @@
-## 🧱 2. Deploy Wazuh (Single Node)
+## 🧱 Deploy Wazuh (Single Node)
 
 ### 🔁 Clone Wazuh Docker Repository
 
@@ -51,3 +51,4 @@ docker-compose up -d
 Starts all Wazuh containers (manager, dashboard, indexer, etc.) in detached mode.
 
 ---
+

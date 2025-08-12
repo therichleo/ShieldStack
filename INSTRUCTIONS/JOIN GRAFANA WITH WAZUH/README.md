@@ -1,4 +1,4 @@
-## 🔍 4. Verify Wazuh Indexer Type
+## 🔍 Verify Wazuh Indexer Type
 
 ### 🧪 Check Indexer (OpenSearch or Elasticsearch)
 
@@ -54,3 +54,4 @@ Example UI:
 > You’ll find **common connection problems** along with their **solutions**
 
 ---
+

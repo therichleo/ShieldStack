@@ -1,4 +1,4 @@
-## 📊 3. Install Grafana
+## 📊 Install Grafana
 
 ```bash
 sudo apt-get install -y software-properties-common
@@ -33,3 +33,4 @@ sudo systemctl enable grafana-server
 Starts Grafana and enables it to start on boot.
 
 ---
+

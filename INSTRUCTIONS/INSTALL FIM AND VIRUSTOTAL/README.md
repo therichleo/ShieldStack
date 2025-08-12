@@ -105,5 +105,3 @@ sudo systemctl restart wazuh-manager
 * Visualización de alertas en el dashboard de Wazuh.
 
 ---
-
-¿Quieres que también genere este README en formato `.md` o como un archivo listo para compartir?

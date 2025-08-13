@@ -62,7 +62,7 @@ Paste the copied content into this file and **change** the memory configuration:
   Xms1g
   ```
 
-Example: <img width="946" height="536" alt="Image" src="https://github.com/user-attachments/assets/cc949d26-c37b-43b1-8bb3-54dda94981d5" />
+<img width="946" height="536" alt="Image" src="https://github.com/user-attachments/assets/cc949d26-c37b-43b1-8bb3-54dda94981d5" />
 
 ---
 

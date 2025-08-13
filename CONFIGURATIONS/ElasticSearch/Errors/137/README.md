@@ -17,7 +17,7 @@ The fix isn’t obvious, but here’s how to solve it.
 
 ---
 
-## 1️⃣ Locate the `jvm.options` File
+## 1. Locate the `jvm.options` File
 
 In your terminal, search for the file:
 
@@ -29,13 +29,13 @@ You should see something like this: <img width="1540" height="136" alt="Image" s
 
 ---
 
-## 2️⃣ Copy JVM Settings
+## 2. Copy JVM Settings
 
 Open that file and **copy all its contents**.
 
 ---
 
-## 3️⃣ Edit the `jvm.options.d` Directory
+## 3. Edit the `jvm.options.d` Directory
 
 Navigate to the `jvm.options.d` directory and open (or create) the `jvm.options` file:
 
@@ -47,7 +47,7 @@ It should look like this: <img width="1524" height="130" alt="Image" src="https:
 
 ---
 
-## 4️⃣ Adjust JVM Memory Settings
+## 4. Adjust JVM Memory Settings
 
 Paste the copied content into this file and **change** the memory configuration:
 
